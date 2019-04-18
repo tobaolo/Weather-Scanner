@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    
+    class Hello extends React.Component {
+        /*constructor () {
+            super();
+            this.state = {
+                message : "Compers",
+                num : 1
+            }
+        } */
+        
+        /*updates  = () => {
+            this.setState({
+                message : "Compers" + String(this.state.num),
+                num : this.state.num + 1
+            });
+        } */
+
+        render() {
+            return (
+            <div>
+            <h1>Hello Compers!</h1>
+            
+            </div>);
+            /*<button onClick={this.updates}>Click me!</button>*/
+        }
+    }
+    ReactDOM.render(
+        <Hello/>, 
+        document.getElementById("root")
+    );
+    </script>
+</body>
+</html>
