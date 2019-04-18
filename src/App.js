@@ -1,8 +1,6 @@
 import React from "react";
 import Weather from "./components/weather";
 import Form from "./components/form";
-// import SWeather from "./components/stateless_weather";
-// import SForm from "./components/stateless_form"
 import Titles from "./components/titles";
 
 const Api_Key = "8d2de98e089f1c28e1a22fc19a24ef04";
