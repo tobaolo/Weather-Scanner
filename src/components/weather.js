@@ -1,9 +1,13 @@
 import React from "react";
 
+// Creating Weather component to display weather information
 class Weather extends React.Component{
 
     render(){
-
+        // Uses regular HTML tags to build up a customized and reusable form component
+        // Defines props for city {this.props.city}, temperature {this.props.temperature}, etc.
+        //  that will be passed in when the component is called in the "render" function of another file
+        // In App.js, see this component being used with props being passed in!
         return(
 
             <div className="weather-info">
